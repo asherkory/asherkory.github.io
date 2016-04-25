@@ -20,13 +20,9 @@ I found these sources particular helpful in my quest to make this super-nested f
 
 ### Nested Resources
 
-Users have the ability to add notes to each of their brews. Since I never want notes to be accessible outside of the context of the brews they belong to, I nested notes under brews in `routes.rb`:
+Users have the ability to add notes to each of their brews. Since I never want notes to be accessible outside of the context of the brews they belong to, I nested notes under brews in `routes.rb`.
 
-```resources :brews do 
-    resources :notes, only: [:new, :create, :edit, :update, :destroy]
-  end ```
-
-  However, the `form_for` helper automatically expects simpler non-nested note routes. In order to keep using the `form_for` magic, and as suggested by a few Stack Overflow sources, I decided I would also declare non-nested `:notes` resources. 
+However, the `form_for` helper automatically expects simpler non-nested note routes. In order to keep using the `form_for` magic, and as suggested by a few Stack Overflow sources, I decided I would also declare non-nested `:notes` resources. 
 
 ### Omniauth
 
