@@ -13,7 +13,9 @@ The most challenging part involved building a has-many-through relationship and 
 I wanted a user to be able to add a new brew with all of its ingredients plus the quantities of each ingredient all at once, in a single form, with the Quantity and Ingredient Name fields displayed in the proper places. I ended up needing to make sure that the Brew model `accepts_nested_attributes_for :recipes`, and Recipe `accepts_nested_attributes_for :ingredient` (note the singular, not plural, ingredient). Then I made a Brew form using the `form_for` helper. Inside of this went a `fields_for :recipes` helper, containing the Quantity field, and nested inside that, a `fields_for :ingredient` helper with the ingredient Name field. In order to create canonical instances of ingredients (instead of creating, say, a new database entry every time a user enters Honey as an ingredient), I made a custom `ingredient_attributes` method in my `Recipe` model which will find the ingredient if it already exists, or a create a new one if it doesn't.
 
 I found these sources particular helpful in my quest to make this super-nested form: 
+
 [Stack Overflow: Has Many Through Nested Forms](http://stackoverflow.com/questions/13506735/rails-has-many-through-nested-form)
+
 [Stack Overflow: How to Edit Attributes of Join Model in Nested Forms](http://stackoverflow.com/questions/2182428/rails-nested-form-with-has-many-through-how-to-edit-attributes-of-join-model)
 
 ### Nested Resources
