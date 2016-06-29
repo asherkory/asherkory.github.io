@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Small Goals: How Roller Derby Made Me a Better Programmer
+title: "Small Goals: How Roller Derby Made Me a Better Programmer"
 tags: roller derby,
 ---
 
