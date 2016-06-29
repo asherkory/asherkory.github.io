@@ -1,7 +1,7 @@
 ---
 layout: post
 title: AngularJS Final Project
-tags: angular, rails
+tags: learn-co, angular, rails
 ---
 I'm wrapping up the [Flatiron Learn Verified](https://learn.co) curriculum final project: an AngularJS app powered by a Rails API. I chose to build a choose-your-own-adventure game app, with inventory and character creation features.
 
