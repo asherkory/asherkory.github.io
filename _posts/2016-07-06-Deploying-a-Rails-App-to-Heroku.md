@@ -71,14 +71,7 @@ It's also a good idea to specify which version of Ruby you're using at the end o
 
 Make sure you have a [Heroku account](https://signup.heroku.com/devcenter) and you've installed the [Heroku toolbelt](https://toolbelt.heroku.com/). Log in from your command shell with `heroku login`. Heroku relies on git for deploying, so be sure you've commited your latest changes in git.
 
-Run `heroku create` from your app's home directory. The output will look like this:
-```
-$ heroku create
-Heroku CLI submits usage information back to Heroku. If you would like to disable this, set `skip_analytics: true` in /Users/rachelk/.heroku/config.json
-Creating app... done, ⬢ nameless-brushlands-19698
-https://nameless-brushlands-19698.herokuapp.com/ | https://git.heroku.com/nameless-brushlands-19698.git
-```
-Now a new remote has been added! You can push up your code with `git push heroku master`.
+Run `heroku create` from your app's home directory. Now a new remote has been added! You can push up your code with `git push heroku master`.
 
 Finally, migrate the database: `heroku run rake db:migrate`. You'll notice this looks like the normal rake migration command, but prefaced with `heroku run`. Anything starting with `heroku run` will be executed on a Heroku dyno, [explained here](https://devcenter.heroku.com/articles/dynos).
 
