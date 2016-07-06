@@ -1,12 +1,6 @@
 similarities between programming and...
-- roller derby (?)
 - costuming
 - latin
-
-
-
-learning from errors! figuring out to pass tests and what makes a thing work can be super educational
-
 
 
 on work environments:
@@ -29,6 +23,7 @@ Angular + Rails resources
 complex Rails/ActiveRecord assocations (go into more detail about self-referential)
 
 how to set up a custom bash/shell prompt for other students (borrow from links/simplify)
+  - how to view current github branch in prompt
 
 how to use Bootstrap css styling in Rails
 
