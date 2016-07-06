@@ -10,7 +10,7 @@ Playing around with your homemade apps in a local environment is fun, but what h
 
 The default database for a new Rails app is SQLite. But Heroku only uses PostgreSQL (for reasons explained [here](https://devcenter.heroku.com/articles/sqlite3)). Since I initially built with app with the default database, I first needed to convert manually to PostgreSQL.
 
-Caveat: If you just have some dummy data in your database and don't care about preserving it, then this simple method should work just fine. On the other hand, if you need to preserve your data, I recommend [this Stack Overflow post](http://stackoverflow.com/questions/6710654/change-from-sqlite-to-postgresql-in-a-fresh-rails-project).
+Caveat: If you just have some dummy data in your database, then this simple method should work just fine. On the other hand, if you need to be absolutely sure you can preserve your data correctly, I recommend [this Stack Overflow post](http://stackoverflow.com/questions/6710654/change-from-sqlite-to-postgresql-in-a-fresh-rails-project).
 
 First, in my Gemfile I removed the gem `sqlite3` and replaced it with `pg`, and ran `bundle install`.
 
@@ -73,7 +73,7 @@ Make sure you have a [Heroku account](https://signup.heroku.com/devcenter) and y
 
 Run `heroku create` from your app's home directory. Now a new remote has been added! You can push up your code with `git push heroku master`.
 
-Finally, migrate the database: `heroku run rake db:migrate`. You'll notice this looks like the normal rake migration command, but prefaced with `heroku run`. Anything starting with `heroku run` will be executed on a Heroku dyno, [explained here](https://devcenter.heroku.com/articles/dynos).
+Finally, set up and migrate the database: `heroky run rake db:setup` then `heroku run rake db:migrate`. You'll notice these look like normal rake commands, but prefaced with `heroku run`. Anything starting with `heroku run` will be executed on a Heroku dyno, [explained here](https://devcenter.heroku.com/articles/dynos).
 
 Want to see it live in your browser? Type `heroku open`!
 
