@@ -77,5 +77,3 @@ Finally, migrate the database: `heroku run rake db:migrate`. You'll notice this 
 
 Want to see it live in your browser? Type `heroku open`!
 
-[Check out the live Homebrewer Helper app.](https://nameless-brushlands-19698.herokuapp.com/)
-
