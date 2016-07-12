@@ -28,3 +28,7 @@ how to set up a custom bash/shell prompt for other students (borrow from links/s
 how to use Bootstrap css styling in Rails
 
 a thing vs. another thing, pros and cons
+
+configuring OAuth for deployment
+
+alternative to Bootstrap for CSS
