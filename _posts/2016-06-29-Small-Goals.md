@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Small Goals: How Roller Derby Made Me a Better Programmer"
-tags: roller derby,
+tags: roller derby, career
 ---
 
 A year ago I tried out for my local roller derby league, the [Long Island Roller Rebels](http://www.longislandrollerrebels.org/). Around the same time, I began to seriously study programming.

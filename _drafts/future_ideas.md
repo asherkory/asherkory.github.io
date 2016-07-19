@@ -29,6 +29,4 @@ how to use Bootstrap css styling in Rails
 
 a thing vs. another thing, pros and cons
 
-configuring OAuth for deployment
-
 alternative to Bootstrap for CSS
