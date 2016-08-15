@@ -8,8 +8,8 @@ SQL queries in ActiveRecord: using ? vs (?) for parameters actually does make a 
 
 Angular components vs directives
 
-compilation of helpful resources for other topics:
-Angular + Rails resources
+compilation of helpful resources for other topics
+
 
 complex Rails/ActiveRecord assocations (go into more detail about self-referential)
 
@@ -23,3 +23,5 @@ a thing vs. another thing, pros and cons
 alternative to Bootstrap for CSS
 
 why you should use X library/gem in your X app
+
+alternatives to Rails (see recent Ruby bookmarks e.g. grape and hanami)
