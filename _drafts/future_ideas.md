@@ -25,3 +25,5 @@ alternative to Bootstrap for CSS
 why you should use X library/gem in your X app
 
 alternatives to Rails (see recent Ruby bookmarks e.g. grape and hanami)
+
+activerecord delete vs destroy
