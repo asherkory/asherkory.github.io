@@ -27,3 +27,6 @@ why you should use X library/gem in your X app
 alternatives to Rails (see recent Ruby bookmarks e.g. grape and hanami)
 
 activerecord delete vs destroy
+
+discipline while working/learning remotely, learning on my own, problem-solving/getting unstuck/resources on my own without much handholding:
+Lessons from Learning and Working Remotely
