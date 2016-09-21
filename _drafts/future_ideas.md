@@ -28,5 +28,14 @@ alternatives to Rails (see recent Ruby bookmarks e.g. grape and hanami)
 
 activerecord delete vs destroy
 
-discipline while working/learning remotely, learning on my own, problem-solving/getting unstuck/resources on my own without much handholding:
-Lessons from Learning and Working Remotely
+hstore, storing as JSON type in postgres db
+
+custom validators
+
+using "super" to extend ActiveRecord's built-in getters and setters
+
+JBuilder intro
+
+Postgres users/roles permissions
+
+testing (or just making/using activerecord in) custom rake tasks
