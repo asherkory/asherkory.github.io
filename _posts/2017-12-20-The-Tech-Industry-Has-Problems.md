@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Tech Industry Has Problems
-tags: ruby
+tags: tech, career
 ---
 
 I enjoy working in tech. I enjoy building something useful, and stretching my brain around thorny coding problems, and making machines do my bidding. But I'm well aware that tech, as industry, is full of problems. Sometimes tech is the bad guy. It doesn't ask if it _should_ build something; just if it _can_. It tries to solve tech problems with more tech. It's classist. It's full of white men and not many other types of people. This collection of reading material confronts some of those issues.
