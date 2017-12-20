@@ -14,7 +14,7 @@ alternative to Bootstrap for CSS
 
 why you should use X library/gem in your X app
 
-alternatives to Rails (see recent Ruby bookmarks e.g. grape and hanami)
+alternatives to Rails (see Ruby bookmarks e.g. grape and hanami)
 
 activerecord delete vs destroy
 
@@ -42,3 +42,7 @@ performance tools: appsignal, code climate, etc
 writing good API documentation: consistent formatting, etc
 
 similarities between athletics & career/dev work: showing up and doing the work, consistency, practice
+
+using trollop for CLIs - basic options parser, subcommands
+
+issues: diversity in tech, when tech is the 'bad guys'...
