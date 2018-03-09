@@ -43,6 +43,10 @@ writing good API documentation: consistent formatting, etc
 
 similarities between athletics & career/dev work: showing up and doing the work, consistency, practice
 
+
 using trollop for CLIs - basic options parser, subcommands
 
-issues: diversity in tech, when tech is the 'bad guys'...
+
+OAuth rundown, links, why it doesn't have to be as complicated as it sounds
+
+documentation-driven development
