@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Singletons and Caching: Diving Into an Error
+title: "Singletons and Caching: Diving Into an Error"
 tags: ruby, rails
 ---
 
